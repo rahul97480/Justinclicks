@@ -45,9 +45,9 @@
 				<label><b>Plan</b></label>
 				<br>
                       <select id="plan" class="plan" style="width: 448px;margin: 0 auto;padding: 10px;border: 1px solid #ccc;">
-                       <option value="Standard" class="opt">Standard</option>
-                        <option value="Advance" class="opt">Advance</option>
-                        <option value="Pro" class="opt">Pro</option>
+                       <option value="Standard" class="plan">Standard</option>
+                        <option value="Advance" class="plan">Advance</option>
+                        <option value="Pro" class="plan">Pro</option>
                       </select>
                 </br>
 				<button class="login_button" name="submit" type="submit">Submit</button>
