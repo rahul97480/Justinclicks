@@ -14,7 +14,7 @@
 						echo "email already registered";
 					}
 						$check_user_number=mysqli_num_rows(mysqli_query($con,"select * from form where mobile='$mobile'"));
-						if($check_user>0){
+						if($check_use_numberr>0){
 							echo "Mobile number already registered";
 					}else{
 						mysqli_query($con,"insert into form(name,email,mobile,plan) values('$name','$email','$mobile','$plan')");
